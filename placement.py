@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-placement_model = pickle.load(open('C:/internship/sav/placement_data.sav', 'rb'))
+placement_model = pickle.load(open('placement_data.sav', 'rb'))
 
 # Streamlit page configuration
 st.set_page_config(page_title="Student Placement Predictor")
